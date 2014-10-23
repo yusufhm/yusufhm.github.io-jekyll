@@ -1,10 +1,12 @@
 # Site settings
 title: Yusuf's blog
 email: me@yusufhm.info
-description: "Mauritian Drupal Developer based in Sydney. Occasionally dabbles in some amount of system administration (Ubuntu Linux). This site serves as a log book of a kind, to keep track of important things."
-baseurl: ""
-url: "http://www.yusufhm.info"
+description: > # this means to ignore newlines until "baseurl:"
+  Mauritian Drupal Developer based in Sydney. Occasionally dabbles in some amount of system administration (Ubuntu Linux). This site serves as a log book of a kind, to keep track of important things.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.yusufhm.info" # the base hostname & protocol for your site
+twitter_username: yusufhm
+github_username:  yusufhm
 
 # Build settings
 markdown: kramdown
-permalink: pretty
