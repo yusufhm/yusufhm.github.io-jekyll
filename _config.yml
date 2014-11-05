@@ -10,3 +10,4 @@ github_username:  yusufhm
 
 # Build settings
 markdown: kramdown
+destination: ../yusufhm.github.io
